@@ -1,0 +1,93 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px ;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C78C19;
+	text-decoration: underline;
+}
+
+main{
+    background: linear-gradient(to top, rgb(42 , 42, 42) , #BBBBBB , #FEFEFE);
+    
+}
+
+.formulario{
+    width: 940px;
+    margin: 0 auto;
+}
+
+main form{
+    margin: 40px 0;
+    display: block;
+}
+
+main form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao   {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+
+}
+
+.checkbox{
+    margin:20px 0 ;
+}
+
+.enviar{
+    padding: 15px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.enviar:hover{
+    background: #8d8d8d;
+    transition: 0.5s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+
+footer{
+    background: url(../img/bg.jpg);
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    padding: 30px 0;
+}
+

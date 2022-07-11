@@ -1,0 +1,137 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px ;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #C78C19;
+	text-decoration: underline;
+}
+
+main{
+    background: linear-gradient(to top, rgb(42 , 42, 42) , #BBBBBB , #FEFEFE);
+
+}
+.container{
+    
+    padding: 60px 0;
+    
+}
+
+.container h2{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.sobreNos{
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.sobreNos #banner{
+    width: 450px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.sobreNos p{
+    
+    text-align: justify;
+    margin: 20px auto;
+}
+
+#imgbeneficio{
+    width: 440px;
+    border-radius: 20px;
+    opacity: 1;
+
+}
+
+#imgbeneficio:hover{
+    opacity: 0.8;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px gray,black;
+}
+
+.beneficios{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;    
+    padding-top: 30px;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+.beneficios h2{
+    padding-left: 30px;
+}
+
+.beneficios li{
+    padding: 15px 50px; /* muda o espaçamento interno do elemento */
+    border-radius: 5px; /*coloca borda arredondada na imagem */
+    line-height: 1.5; /* muda o espaçamento da linha */
+}
+.beneficios li:hover{
+    border-color: #C78C19;
+    font-weight:bolder ;
+    background: #BBBBBB;
+    transition: 0.8s;
+
+    
+}
+
+.beneficios li:active {
+	border-color: #088C19;	
+}
+
+.video{
+    width: 940px;
+    margin: 2em auto;
+}
+.mapa{
+    text-align: center;
+    margin: 50px 0;
+}
+.mapa p{
+    padding: 15px 0;
+}
+
+footer{
+    text-align: center;
+    background: url(../img/bg.jpg);
+    padding: 30px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+}
